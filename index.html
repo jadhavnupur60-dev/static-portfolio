@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | MCA Student</title>
+    <meta name="description" content="A student portfolio showcasing web development projects and skills.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Welcome splash screen -->
+    <div id="splash-screen" class="splash">
+        <div class="splash-card">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>Discover my skills, projects, and journey.</p>
+            <button id="enter-button">Explore Portfolio</button>
+        </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">MyPortfolio</a>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home section -->
+        <section id="home" class="hero">
+            <p class="eyebrow">HELLO, WELCOME TO MY WEBSITE</p>
+            <h1>Hi, I'm <span>Nupur Jadhav</span></h1>
+            <h2>MCA Student & Aspiring Web Developer</h2>
+            <p>
+                I enjoy learning web technologies and building
+                simple, useful, and creative projects.
+            </p>
+            <a href="#projects" class="primary-button">View My Projects</a>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am an MCA student interested in web development
+                and software projects. I am developing my skills in
+                HTML, CSS, JavaScript, and problem-solving.
+            </p>
+
+            <h3>My Skills</h3>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Problem Solving</span>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="section projects-section">
+            <h2>My Projects</h2>
+            <p>Here are some projects I am learning and working on.</p>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-icon" aria-hidden="true">01</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website built using HTML and CSS.</p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon" aria-hidden="true">02</div>
+                    <h3>Notes App</h3>
+                    <p>A simple app for creating and managing notes.</p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon" aria-hidden="true">03</div>
+                    <h3>Accessible To-Do App</h3>
+                    <p>A task application with accessible controls.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section contact-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to connect with me about learning and projects.</p>
+            <a href="mailto:nupurjadhav60@gmail.com" class="primary-button">
+                Send Me an Email
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Nupur Jadhav. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
